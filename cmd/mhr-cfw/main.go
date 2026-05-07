@@ -61,7 +61,7 @@ func parseArgs() (*args, error) {
 	flag.Parse()
 
 	if *showVersion {
-		fmt.Printf("domainfront-tunnel %s\n", constants.Version)
+		fmt.Printf("mhr-cfw-go %s (commit=%s, built=%s)\n", constants.Version, constants.Commit, constants.BuildDate)
 		os.Exit(0)
 	}
 	if *setupFlag {

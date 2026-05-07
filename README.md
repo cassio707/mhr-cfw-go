@@ -55,7 +55,7 @@ cd mhr-cfw-go
 
 Or download the latest release from [ 📥 GitHub Releases](https://github.com/ThisIsDara/mhr-cfw-go/releases)
 
-### 2 - Build on Linux
+### 2 - Build (Linux)
 
 Make the script executable, then run it:
 
@@ -65,6 +65,25 @@ chmod +x build.sh
 ```
 
 This will build the `mhr-cfw-go` binary.
+
+### 2.0 - Build (macOS)
+
+```bash
+chmod +x build/mac/build.sh
+./build/mac/build.sh
+```
+
+### 2.1 - Build (Windows PowerShell)
+
+```powershell
+.\build.ps1
+```
+
+### 2.2 - Build (Windows CMD)
+
+```bat
+build.bat
+```
 
 ### 3 - Configure
 

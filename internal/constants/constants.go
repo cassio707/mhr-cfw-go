@@ -1,6 +1,12 @@
 package constants
 
-const Version = "1.1.0"
+// Version metadata is injected at build time via -ldflags.
+// Defaults keep local `go run` / `go test` usable without tags.
+var (
+	Version   = "dev"
+	Commit    = "none"
+	BuildDate = "unknown"
+)
 
 const (
 	MaxRequestBodyBytes  = 100 * 1024 * 1024

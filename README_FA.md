@@ -47,7 +47,7 @@ cd mhr-cfw-go
 
 یا آخرین نسخه را از [GitHub Releases](https://github.com/ThisIsDara/mhr-cfw-go/releases) دانلود کنید
 
-### 2 - بیلد روی لینوکس
+### 2 - بیلد (Linux)
 
 اسکریپت را اجرایی کنید و سپس اجرا کنید:
 
@@ -57,6 +57,25 @@ chmod +x build.sh
 ```
 
 این کار فایل `mhr-cfw-go` را می‌سازد.
+
+### 2.0 - بیلد (macOS)
+
+```bash
+chmod +x build/mac/build.sh
+./build/mac/build.sh
+```
+
+### 2.1 - بیلد (Windows PowerShell)
+
+```powershell
+.\build.ps1
+```
+
+### 2.2 - بیلد (Windows CMD)
+
+```bat
+build.bat
+```
 
 ### 3 - تنظیمات
 
